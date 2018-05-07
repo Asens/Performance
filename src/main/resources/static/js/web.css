@@ -1,0 +1,169 @@
+body{
+    font-family: "Microsoft YaHei"
+}
+
+.layui-layout-admin .layui-side {
+    top: 0
+}
+
+.layui-layout-admin .layui-body {
+    top: 0;
+    bottom: 0;
+}
+
+.layui-row .bar{
+    padding: 10px;
+}
+
+.inside{
+    padding: 20px 0 0 15px;
+    background-color: #fff;
+    box-shadow: 0 0 4px rgba(26,26,26,0.15);
+}
+
+.normal-box{
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 4px rgba(26,26,26,0.15);
+}
+
+.normal-box.active{
+    box-shadow: 0 0 4px #009688;
+}
+
+.inside.inside-12{
+    padding: 20px 15px 0 15px;
+    background-color: #fff;
+    box-shadow: 0 0 4px rgba(26,26,26,0.15);
+}
+
+.logo{
+    height: 130px;
+    padding: 0 0 20px 0;
+}
+
+.logo .title{
+    font-size: 2.2rem;
+    font-weight: 300;
+    color: white;
+}
+
+.logo .user{
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: white;
+    margin-top: 30px;
+    font-family: "Microsoft YaHei";
+}
+
+.out-tip{
+    cursor: help;font-size: 12px;
+    color: #999;
+    border: 1px solid #999;
+    border-radius: 50%;
+    padding: 1px;
+}
+
+.inbox.out-tip{
+    position: absolute;
+    right: 14px;
+    top: 13px;
+}
+
+.layui-table a {
+    color: #009688;
+    cursor: pointer;
+}
+
+.layui-table .layui-btn {
+    color: white;
+    cursor: pointer;
+}
+
+.layui-row.ud {
+    padding: 35px 20px 20px 20px;
+    background-color: #fff;
+    box-shadow: 0 0 4px rgba(26,26,26,0.15);
+    min-height: 600px;
+}
+
+.layui-row.in-main-back {
+    padding: 35px 20px 20px 20px;
+    background-color: #fff;
+    min-height: 600px;
+}
+
+::-webkit-scrollbar{width:2px;height:7px;background:#ffffff;}
+::-webkit-scrollbar-track{background:#ffffff;}
+::-webkit-scrollbar-thumb{background:#b5b5b5;}
+::-webkit-scrollbar-thumb:hover{background:#90969e;}
+
+.m-t-20{
+    margin-top: 20px;
+}
+
+.m-t-40{
+    margin-top: 40px;
+}
+
+.m-t-100{
+    margin-top: 100px;
+}
+
+.date-range{
+    height: 36px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    width: 180px;
+    color: #666;
+    padding: 0 15px;
+}
+
+.time-button.on:hover{
+    color: #fff;
+    background-color: #009688;
+}
+
+.time-button.on{
+    color: #fff;
+    background-color: #009688;
+}
+
+.small-title{
+    font-size: 12px;
+    color: #666;
+}
+
+.last-count{
+    font-size: 12px;
+    color: #999;
+    font-family: "Microsoft YaHei"
+}
+
+.today-count{
+    font-size: 30px;
+    line-height: 42px;
+    height: 42px;
+    font-weight: 600;
+    color: #333;
+    font-family: "Microsoft YaHei"
+}
+
+.out-tip.inbox.add-config{
+    border: none;font-size: 2rem;top: 6px;color: #009688;cursor: pointer;
+    transition: .2s;
+}
+
+.out-tip.inbox.add-config:hover{
+    color: #007648;
+}
+
+.app-config-icon{
+    position: absolute;top:15px;right: 18px;font-size: 1.4rem;cursor: pointer;
+}
+
+.app-config-icon:hover{
+    color: #00adee;
+}
+
+.clearfix{clear:both;height:0;overflow:hidden;}
